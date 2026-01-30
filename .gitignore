@@ -1,0 +1,39 @@
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Keys & certificates
+*.pem
+*.key
+*.crt
+*.cer
+*.p12
+*.pfx
+*.keystore
+
+# Credentials
+credentials.json
+secrets.json
+config/secrets.*
+
+# Dependencies
+node_modules/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Build output
+dist/
+build/
+
+# Coverage
+coverage/
+
+# Runtime
+.pid
+*.pid
+*.seed
