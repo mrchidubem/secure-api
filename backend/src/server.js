@@ -29,7 +29,7 @@ process.on('unhandledRejection', (err) => {
   try {
     await connectDB(); 
 
-    app.listen(config.port, () => {
+    app.listen(config.port,'0.0.0.0',() => {
       log({
         level: "info",
         event: "SERVER_STARTED",
